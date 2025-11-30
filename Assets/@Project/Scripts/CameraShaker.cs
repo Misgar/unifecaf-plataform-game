@@ -28,13 +28,13 @@ public class CameraShaker : MonoBehaviour
 		
 		while ( elapsed < m_duration )
 		{
-			// �J������h�炷���߂Ɉʒu�������_���ɓ�����
+			
 			var x = pos.x + Random.Range( -1f, 1f ) * m_magnitude;
 			var y = pos.y + Random.Range( -1f, 1f ) * m_magnitude;
 
 			transform.localPosition = new Vector3( x, y, pos.z );
 
-			// �J������h�炵�n�߂Ă���̌o�ߎ��Ԃ�i�߂�
+	
 			elapsed += Time.deltaTime;
 
 			// ���̃t���[���ł̏�������U���f����
